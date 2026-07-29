@@ -49,6 +49,7 @@ nav{
     align-items: center;
     gap: 8px;
     padding: 0 12px;
+    font-weight: 600;
 }
 
 .nav-left a:hover{
@@ -103,28 +104,36 @@ nav{
     border: 2px solid black;
 }
 
+
+
 .links-top{
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 100%;
+    justify-content: space-between;
     background-color: #817aff;
     padding: 25px 40px;
 }
 
 .links-items{
+    width: 100%;
     display: flex;
     align-items: center;
-    padding: 0 11px;
     justify-content: space-between;
-    gap: 600px;
+    padding: 0 11px;
     font-size: 18px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 55px;
 }
 
 .links-items a{
-    gap: 8px;
     text-decoration: none;
     color: white;
+    font-weight: bold;
+}
+
+.links a{
+  gap: 90px;
 }
 
 .feedback {
@@ -150,7 +159,7 @@ nav{
   height: 100%;
   object-fit: cover;
   object-position: center;
-  display: block;
+  /* display: block; */
 }
 
 .section-text {
@@ -202,7 +211,6 @@ nav{
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  object-fit: cover;
 }
 
 .text-secondary div {
@@ -223,4 +231,30 @@ nav{
   font-weight: 400;
   color: #727586;
   margin: 0;
+}
+
+.clients-major{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container-major{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  gap: 60px;
+}
+
+.tarjets{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+}
+
+.img-t img{
+  width: 360px;
+  height: 210px;
 }
