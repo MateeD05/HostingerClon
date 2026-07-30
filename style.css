@@ -52,6 +52,11 @@ nav{
     font-weight: 600;
 }
 
+.logo-only-h{
+    color: black;
+    display: none;
+}
+
 .nav-left a:hover{
     color: #707071;
 }
@@ -122,6 +127,11 @@ nav{
   color: white;
   font-weight: 800;
   display: none;
+}
+
+.menu-buttom-left img{
+    border: none;
+    display: none;
 }
 
 .links-items{
@@ -394,3 +404,57 @@ nav{
     }
 
 }
+
+
+@media screen and (max-width: 1140px) {
+    .Logo-header{
+        display: none;
+    }
+
+    /* .nav-left{
+        padding-left: 180px;
+    } */
+}
+
+@media screen and (max-width: 1138px) {
+    
+    .logo-only-h{
+        display: flex;
+        width: 22px;
+        height: 25px;
+    }
+
+     .pill-buttom-eeuu{
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 992px){
+    .feedback{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 950px;
+        height: 705px;
+        gap: 10px;
+    }
+
+    .img-major{
+        width: 700px;
+        height: 360px;
+    }
+
+    .text-major h1{
+        width: 700px;
+        height: 17px;
+    }
+
+    .text-major a{
+        width: 698px;
+        height: 67px;
+    }
+}
+   
