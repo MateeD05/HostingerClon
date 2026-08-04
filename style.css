@@ -7,6 +7,11 @@
     font-family: "DM Sans", sans-serif;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
 header{
     display: flex;
     flex-direction: row;
@@ -144,7 +149,6 @@ nav{
     font-size: 18px;
     max-width: 1200px;
     margin: 0 auto;
-    gap: 55px;
 }
 
 .links-items a{
@@ -442,7 +446,7 @@ nav{
 }
 
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1056px){
     .feedback{
         display: flex;
         flex-direction: column;
@@ -518,5 +522,107 @@ nav{
 }
    
 @media screen and (max-width: 967px){
+    .feedback{
+        width: 540px;
+        height: 611px;
+        padding: 0 0 30px 0;
+    }
 
+    .img-major{
+        width: 519px;
+        height: 290px;
+    }
+
+    .text-major h1{
+        width: 519px;
+        height: 17px;
+    }
+
+    .text-major a{
+        width: 512px;
+        height: 67px;
+    }
+
+    .text-major p{
+        width: 519px;
+        height: 84px;
+    }
+
+    .text-secondary img{
+        width: 55px;
+        height: 55px;
+    }
+
+    .user-info{
+        width: 98px;
+        height: 24px;
+    }
+
+    .links-top{
+        padding: 15px 90px;
+    }
+
+    .clients-major{
+        display: flex;
+        width: 740px;
+        height: 1665px;
+    }
+
+    .container-major{
+        display: flex;
+        flex-direction: column;
+        width: 540px;
+        padding: 70px 0;
+    }
+
+    .tarjects{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 540px;
+        height: 423px;
+    }
+
+    .img-t img{
+        width: 519px;
+        height: 209px;
+    }
+
+}
+
+@media screen and (max-width: 757px){
+    body{
+    zoom: 80%;
+  }
+}
+
+@media screen and (max-width: 608px){
+    body{
+        zoom: 70%;
+    }
+}
+
+@media screen and (max-width: 535px){
+    body{
+        zoom: 60%;
+    }
+}
+
+@media screen and (max-width: 461px){
+    body{
+        zoom: 50%;
+    }
+}
+
+@media screen and (max-width: 386px){
+    body{
+        zoom: 40%;
+    }
+}
+
+@media screen and (max-width: 296px){
+    body{
+        zoom: 35%;
+    }
 }
